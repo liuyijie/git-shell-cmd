@@ -1,9 +1,12 @@
-delete:
+delete directory:
+for example: delete project design-pattern.target
+using:
 git rm -r --cached target
 git commit -m "remove target"
 git push -f design-pattern master
 
-init:
+init project:
+for example: init project design-pattern
 git init
 git add *
 git commit -m "init demo"
