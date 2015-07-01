@@ -1,0 +1,12 @@
+delete:
+git rm -r --cached target
+git commit -m "remove target"
+git push -f design-pattern master
+
+init:
+git init
+git add *
+git commit -m "init demo"
+git remote add design-pattern https://github.com/liuyijie/design-pattern.git
+git push -f design-pattern master
+
