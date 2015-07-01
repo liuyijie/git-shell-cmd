@@ -7,9 +7,16 @@ git push -f design-pattern master
 
 init project:
 for example: init project design-pattern
+using:
 git init
 git add *
 git commit -m "init demo"
 git remote add design-pattern https://github.com/liuyijie/design-pattern.git
+git push -f design-pattern master
+
+update project file:
+using:
+git add .
+git commit -m "update file"
 git push -f design-pattern master
 
